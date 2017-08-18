@@ -41,6 +41,7 @@
   ],
   "license": "MIT",
   "main": "dist/most-chunksOf.js",
+  "types": "index.d.ts",
   "peerDependencies": {
     "most": "^1.1.1"
   },
