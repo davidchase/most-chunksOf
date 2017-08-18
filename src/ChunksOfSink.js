@@ -23,6 +23,7 @@ export class ChunksOfSink {
 
   end (time, value) {
     if (this.length > 0) {
+      this.xs.length = this.length;
       this.sink.event(time, this.xs)
     }
     return this.sink.end(time, value)
